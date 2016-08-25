@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<head>
+<title>CP1406 A1</title>
+
+<style type="text/css">
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #CFF;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px; 
+	float: left;
+	background-color: #9FF;
+}
+
+h3{
+	font: 250%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #D40000;
+	float: none;
+}
+h4{
+	margin:0;
+	padding-right:0;
+	padding-left:30;
+	float:left;
+	background-color: #CFF;
+	color: #D41F00;
+}
+
+h5{
+	font: "Helvetica";
+	margin: 0;
+	padding: 0;
+	color: #993;
+	float: left;
+	background-color: #FFC;
+}
+h6{
+	font: 150%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #800000;
+	float: none;
+}
+
+h7{
+	font: "Helvetica";
+	margin: 0;
+	padding: 0;
+	color: #210000;
+	float: right;
+	background-color: #2AFFFF;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+.container {
+	width: 960px;
+	background-color: #7FDFFF;
+	margin: 0 auto; 
+	overflow: hidden; 
+}
+
+.sidebar1 {
+	float: right;
+	width: 180px;
+	padding-bottom: 0px;
+	
+}.content {
+	padding: 10px 0;
+	width: 780px;
+	float: right;
+}
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; 
+}
+
+
+ul.nav {
+	list-style: none; 
+	border-top: 1px solid #666; 
+	margin-bottom: 15px; 
+}
+ul.nav li {
+	border-bottom: 1px solid #666; 
+}
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 160px;
+	text-decoration: none;
+	background-color: #FFCC00;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+table#t01 {
+    width: 100%;
+	border:hidden;
+}
+</style></head>
+
+<body>
+<div class="container"> <a href="index.htm"> <img src="images/mainbanner.png" width="973" height="236" ></a>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="index.htm">Home</a></li>
+      <li><a href="cosplay.htm">What is Cosplay?</a></li>
+      <li><a href="prices.htm">Price List</a></li>
+      <li><a href="links.htm">Links</a></li>
+      <li><a href="party.htm">Party Guidelines</a></li>
+      <li><a href="signup.htm">Sign-Up</a></li>
+    </ul>
+  </div>
+  <table style="width:70%">
+    <caption>
+      <h6> Announcements</h6>
+    </caption>
+    <th> <h5> 
+We have some cool things happening that we want people to know about: <br/>
+- This month you can purchase 3 drinks for the price of 2 at the bar.<br/>
+      - First-time party-goers get a 50% discount on entry<br/>
+      - If you get a costume custom made, your next party entry is free if you wear that costume.<br/>
+      - Wear your costume in to KFC on Stanton street and you can get a free drink with a 21-piece bucket. Tell them you've been to CossiePlay! </h5></th>
+    </table>
+</div>
+<div class="container">
+<table style="width:100%" id="t01">
+<th>
+<h3> <strong>Party Signup</strong></h3>
+<img src="images/alice.jpg" width="965" height="656"> </th>
+</table>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="container">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" />
+		<br />
+	</div>
+	<div class="container">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+    <div class="container">
+		<label for="party">Number of people in your party:</label><br />
+		<input id="party" class="input" name="party" type="text" value="" size="30" /><br />
+	</div>
+	<div class="container">
+		<label for="message">Any additional information:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+    
+	<input id="submit_button" type="submit" value="Send email" />
+</form>		
+</div>
+<div class="container">
+<h7>
+Contact<br/>
+Phone: 07 4771 1234<br/>
+Fax: 07-4771 1235<br/>
+Address: 4 Stanton Avenue, Hulkstown<br/>
+Email: cossieplay@ gmail.com.
+</h7>
+</div>
+</body>
+
+</html>
